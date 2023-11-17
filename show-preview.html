@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>URL Compressor</title>
+</head>
+
+<body>
+    <h1>URL Compressor</h1>
+
+    {{ if .Link }}
+    <p>{{ .Encoded }}</p>
+    <img src="https://chart.googleapis.com/chart?chs=200x200&amp;cht=qr&amp;chl={{ .Encoded }}" alt="{{ .Encoded }}">
+    {{ end }}
+
+    <form method="GET">
+        <input type="text" name="url" value="{{ .Link }}" size="80">
+        <input type="submit" value="圧縮URLを作成">
+    </form>
+</body>
+
+</html>
