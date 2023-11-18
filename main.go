@@ -71,9 +71,15 @@ func serveIndex(w http.ResponseWriter, r *http.Request) {
 }
 
 var escaper = strings.NewReplacer(
-	" ", "%20",
-	"%", "%25",
-	"+", "%2B",
+	" ", ".A",
+	// "$", ".B",
+	"%", ".C",
+	"*", ".D",
+	"+", ".E",
+	// "-", ".F",
+	".", ".G",
+	"/", ".H",
+	// ":", ".I",
 )
 
 func encode(data []byte) string {
@@ -92,6 +98,18 @@ func encode(data []byte) string {
 	return escaper.Replace("0" + base45.EncodeToString(buf.Bytes()))
 }
 
+var decoder = strings.NewReplacer(
+	".A", " ",
+	".B", "$",
+	".C", "%",
+	".D", "*",
+	".E", "+",
+	".F", "-",
+	".G", ".",
+	".H", "/",
+	".I", ":",
+)
+
 func decode(data string) ([]byte, error) {
 	if len(data) == 0 {
 		return nil, fmt.Errorf("empty data")
@@ -104,7 +122,7 @@ func decode(data string) ([]byte, error) {
 }
 
 func decode0(data string) ([]byte, error) {
-	tmp, err := base45.DecodeString(data)
+	tmp, err := base45.DecodeString(decoder.Replace(data))
 	if err != nil {
 		return nil, err
 	}
