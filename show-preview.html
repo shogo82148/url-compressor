@@ -10,7 +10,8 @@
 
     {{ if .Link }}
     <p>{{ .Encoded }}</p>
-    <img src="https://chart.googleapis.com/chart?chs=200x200&amp;cht=qr&amp;chl={{ .Encoded }}" alt="{{ .Encoded }}">
+    <img src="https://chart.googleapis.com/chart?chs=200x200&amp;cht=qr&amp;chld=M&amp;chl={{ .Encoded }}"
+        alt="{{ .Encoded }}">
     {{ end }}
 
     <form method="GET">
