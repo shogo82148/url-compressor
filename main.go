@@ -10,6 +10,7 @@ import (
 	"strings"
 
 	"github.com/shogo82148/base45"
+	"github.com/shogo82148/ridgenative"
 )
 
 //go:embed show-link.html
@@ -19,7 +20,7 @@ var showLinkTemplate = template.Must(template.New("show-link").Parse(showLinkHTM
 
 func main() {
 	http.HandleFunc("/", serveRoot)
-	http.ListenAndServe(":8080", nil)
+	ridgenative.ListenAndServe(":8080", nil)
 }
 
 func serveRoot(w http.ResponseWriter, r *http.Request) {

@@ -1,2 +1,4 @@
 github.com/shogo82148/base45 v1.1.1 h1:S6b8JJdlyeFo+8b5NPIIAVe+gE1wH7KDxO7bpWygKpw=
 github.com/shogo82148/base45 v1.1.1/go.mod h1:yPk7HT3eC0/eMywsCSqilF+D+Xl63i2VjK/fVBZ6Y1M=
+github.com/shogo82148/ridgenative v1.4.0 h1:yBsshqKQ86Y155CzgW3iC34DPwpcClceCJ8JQBd36UE=
+github.com/shogo82148/ridgenative v1.4.0/go.mod h1:PInWLpQIV0RsZI3j81ZH87hQ2knhDiMGbeDuTli3QIE=
