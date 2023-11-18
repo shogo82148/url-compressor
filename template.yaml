@@ -16,21 +16,40 @@ Resources:
       FunctionUrlConfig:
         AuthType: NONE
 
-  # RecordSet:
-  #   Type: AWS::Route53::RecordSet
-  #   Properties:
-  #     HostedZoneName: "shogo82148.com."
-  #     Name: "c.shogo82148.com"
-  #     Type: A
-  #     AliasTarget:
-  #       DNSName: !GetAtt ApiGatewayDomainNameV24c58e33fd3.RegionalDomainName
-  #       HostedZoneId: !GetAtt ApiGatewayDomainNameV24c58e33fd3.RegionalHostedZoneId
-
-  Certificate:
-    Type: AWS::CertificateManager::Certificate
+  Distribution:
+    Type: AWS::CloudFront::Distribution
     Properties:
-      DomainName: "c.shogo82148.com"
-      ValidationMethod: "DNS"
-      DomainValidationOptions:
-        - DomainName: "c.shogo82148.com"
-          HostedZoneId: Z1TR8BQNS8S1I7
+      DistributionConfig:
+        Origins:
+          - Id: lambda
+            DomainName: !Select [
+                2, # HACK for removing https://
+                !Split ["/", !GetAtt CompressUrlFunctionUrl.FunctionUrl],
+              ]
+            CustomOriginConfig:
+              OriginProtocolPolicy: https-only
+        DefaultCacheBehavior:
+          CachePolicyId: !GetAtt AllQueryStringPolicy.Id
+          ViewerProtocolPolicy: redirect-to-https
+          TargetOriginId: lambda
+        Enabled: true
+        IPV6Enabled: true
+        HttpVersion: http2and3
+
+  AllQueryStringPolicy:
+    Type: AWS::CloudFront::CachePolicy
+    Properties:
+      CachePolicyConfig:
+        Name: AllQueryStringPolicy
+        DefaultTTL: 60
+        MaxTTL: 60
+        MinTTL: 1
+        ParametersInCacheKeyAndForwardedToOrigin:
+          CookiesConfig:
+            CookieBehavior: none
+          EnableAcceptEncodingBrotli: true
+          EnableAcceptEncodingGzip: true
+          HeadersConfig:
+            HeaderBehavior: none
+          QueryStringsConfig:
+            QueryStringBehavior: all
