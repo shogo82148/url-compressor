@@ -6,6 +6,7 @@ import (
 	"html/template"
 	"io"
 	"net/http"
+	"os"
 	"strings"
 
 	"github.com/shogo82148/base45"
@@ -57,7 +58,12 @@ func serveIndex(w http.ResponseWriter, r *http.Request) {
 	u = strings.TrimPrefix(u, "http://")
 	u = strings.TrimPrefix(u, "https://")
 
-	encoded := "HTTPS://" + strings.ToUpper(r.Host) + "/" + encode([]byte(u))
+	host := os.Getenv("COMPRESSOR_HOSTNAME")
+	if host == "" {
+		host = r.Host
+	}
+
+	encoded := "HTTPS://" + strings.ToUpper(host) + "/" + encode([]byte(u))
 	err := showPreviewTemplate.Execute(w, struct{ Encoded, Link string }{Encoded: encoded, Link: url})
 	if err != nil {
 		panic(err)
