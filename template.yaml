@@ -13,13 +13,24 @@ Resources:
       Handler: compress-url
       Runtime: provided.al2023
       Architectures: [arm64]
-      Events:
-        CatchAll:
-          Type: HttpApi
-          Properties:
-            ApiId: !Ref CompressUrlApi
+      FunctionUrlConfig:
+        AuthType: NONE
 
-  CompressUrlApi:
-    Type: AWS::Serverless::HttpApi
+  # RecordSet:
+  #   Type: AWS::Route53::RecordSet
+  #   Properties:
+  #     HostedZoneName: "shogo82148.com."
+  #     Name: "c.shogo82148.com"
+  #     Type: A
+  #     AliasTarget:
+  #       DNSName: !GetAtt ApiGatewayDomainNameV24c58e33fd3.RegionalDomainName
+  #       HostedZoneId: !GetAtt ApiGatewayDomainNameV24c58e33fd3.RegionalHostedZoneId
+
+  Certificate:
+    Type: AWS::CertificateManager::Certificate
     Properties:
-      Description: API for compress URL for QR code
+      DomainName: "c.shogo82148.com"
+      ValidationMethod: "DNS"
+      DomainValidationOptions:
+        - DomainName: "c.shogo82148.com"
+          HostedZoneId: Z1TR8BQNS8S1I7

@@ -6,7 +6,6 @@ import (
 	"html/template"
 	"io"
 	"net/http"
-	"net/url"
 	"strings"
 
 	"github.com/shogo82148/base45"
@@ -65,6 +64,12 @@ func serveIndex(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+var escaper = strings.NewReplacer(
+	" ", "%20",
+	"%", "%25",
+	"+", "%2B",
+)
+
 func encode(data []byte) string {
 	buf := NewBuffer([]byte{})
 
@@ -78,14 +83,10 @@ func encode(data []byte) string {
 		buf.WriteBit(1)
 	}
 
-	return url.PathEscape("0" + base45.EncodeToString(buf.Bytes()))
+	return escaper.Replace("0" + base45.EncodeToString(buf.Bytes()))
 }
 
 func decode(data string) ([]byte, error) {
-	data, err := url.PathUnescape(data)
-	if err != nil {
-		return nil, err
-	}
 	if len(data) == 0 {
 		return nil, fmt.Errorf("empty data")
 	}
