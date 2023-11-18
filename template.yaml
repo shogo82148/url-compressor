@@ -38,7 +38,7 @@ Resources:
         Enabled: true
         IPV6Enabled: true
         HttpVersion: http2and3
-        CNAMEs:
+        Aliases:
           - "c.shogo82148.com"
         ViewerCertificate:
           SslSupportMethod: sni-only
