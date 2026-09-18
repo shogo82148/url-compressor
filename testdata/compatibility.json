@@ -1,0 +1,1130 @@
+[
+  {
+    "hex": "",
+    "encoded": "0"
+  },
+  {
+    "hex": "6578616d706c652e636f6d",
+    "encoded": "0.E57TE27ZJ.G2"
+  },
+  {
+    "hex": "6578616d706c652e636f6d2f706174683f613d3126623d68656c6c6f253230776f726c642373656374696f6e",
+    "encoded": "0.E57TE27ZJYZG6AGS4KGIUPLC$9F.D-LQ$UNPEONN.HSTSN3B4"
+  },
+  {
+    "hex": "e4be8be381882e6a702fe697a5e69cace8aa9e3f713df09f8da3",
+    "encoded": "0FGW.DSC16WEGW.DSCD2WCGWT7FJ.GVA3DDESD7V4GW9AKQ6V-FWFGW1TT.HFW78G.CUROFWFGWK0REDSYCP.D$VAGWCDQJPVBGWF0"
+  },
+  {
+    "hex": "efbbbf6578616d706c652e636f6d",
+    "encoded": "0FGW1JFY5WCGW7GCG78GU5I.AP"
+  },
+  {
+    "hex": "00",
+    "encoded": "0FGWN5"
+  },
+  {
+    "hex": "01",
+    "encoded": "0FGWO5"
+  },
+  {
+    "hex": "02",
+    "encoded": "0FGWP5"
+  },
+  {
+    "hex": "03",
+    "encoded": "0FGWQ5"
+  },
+  {
+    "hex": "04",
+    "encoded": "0FGWC4"
+  },
+  {
+    "hex": "05",
+    "encoded": "0FGWD4"
+  },
+  {
+    "hex": "06",
+    "encoded": "0FGWE4"
+  },
+  {
+    "hex": "07",
+    "encoded": "0FGWF4"
+  },
+  {
+    "hex": "08",
+    "encoded": "0FGWG4"
+  },
+  {
+    "hex": "09",
+    "encoded": "0FGWH4"
+  },
+  {
+    "hex": "0a",
+    "encoded": "0FGWI4"
+  },
+  {
+    "hex": "0b",
+    "encoded": "0FGWJ4"
+  },
+  {
+    "hex": "0c",
+    "encoded": "0FGWK4"
+  },
+  {
+    "hex": "0d",
+    "encoded": "0FGWL4"
+  },
+  {
+    "hex": "0e",
+    "encoded": "0FGWM4"
+  },
+  {
+    "hex": "0f",
+    "encoded": "0FGWN4"
+  },
+  {
+    "hex": "10",
+    "encoded": "0FGWO4"
+  },
+  {
+    "hex": "11",
+    "encoded": "0FGWP4"
+  },
+  {
+    "hex": "12",
+    "encoded": "0FGWQ4"
+  },
+  {
+    "hex": "13",
+    "encoded": "0FGWR4"
+  },
+  {
+    "hex": "14",
+    "encoded": "0FGWS4"
+  },
+  {
+    "hex": "15",
+    "encoded": "0FGWT4"
+  },
+  {
+    "hex": "16",
+    "encoded": "0FGWU4"
+  },
+  {
+    "hex": "17",
+    "encoded": "0FGWV4"
+  },
+  {
+    "hex": "18",
+    "encoded": "0FGWW4"
+  },
+  {
+    "hex": "19",
+    "encoded": "0FGWX4"
+  },
+  {
+    "hex": "1a",
+    "encoded": "0FGWY4"
+  },
+  {
+    "hex": "1b",
+    "encoded": "0FGWZ4"
+  },
+  {
+    "hex": "1c",
+    "encoded": "0FGW.A4"
+  },
+  {
+    "hex": "1d",
+    "encoded": "0FGW$4"
+  },
+  {
+    "hex": "1e",
+    "encoded": "0FGW.C4"
+  },
+  {
+    "hex": "1f",
+    "encoded": "0FGW.D4"
+  },
+  {
+    "hex": "20",
+    "encoded": "0FGW.E4"
+  },
+  {
+    "hex": "21",
+    "encoded": "0BGW"
+  },
+  {
+    "hex": "22",
+    "encoded": "0FGW-4"
+  },
+  {
+    "hex": "23",
+    "encoded": "0U1"
+  },
+  {
+    "hex": "24",
+    "encoded": "0FGW.G4"
+  },
+  {
+    "hex": "25",
+    "encoded": "0Q5"
+  },
+  {
+    "hex": "26",
+    "encoded": "0G.HG"
+  },
+  {
+    "hex": "27",
+    "encoded": "0$H9"
+  },
+  {
+    "hex": "28",
+    "encoded": "0EGW"
+  },
+  {
+    "hex": "29",
+    "encoded": "0DGW"
+  },
+  {
+    "hex": "2a",
+    "encoded": "0FGW.H4"
+  },
+  {
+    "hex": "2b",
+    "encoded": "04I9"
+  },
+  {
+    "hex": "2c",
+    "encoded": "0FGW.C2"
+  },
+  {
+    "hex": "2d",
+    "encoded": "0M5"
+  },
+  {
+    "hex": "2e",
+    "encoded": "083"
+  },
+  {
+    "hex": "2f",
+    "encoded": "0.H4"
+  },
+  {
+    "hex": "30",
+    "encoded": "0W3"
+  },
+  {
+    "hex": "31",
+    "encoded": "0Q1"
+  },
+  {
+    "hex": "32",
+    "encoded": "0$2"
+  },
+  {
+    "hex": "33",
+    "encoded": "0H2"
+  },
+  {
+    "hex": "34",
+    "encoded": "0L2"
+  },
+  {
+    "hex": "35",
+    "encoded": "0.H2"
+  },
+  {
+    "hex": "36",
+    "encoded": "0S5"
+  },
+  {
+    "hex": "37",
+    "encoded": "0W1"
+  },
+  {
+    "hex": "38",
+    "encoded": "0:3"
+  },
+  {
+    "hex": "39",
+    "encoded": "0.D2"
+  },
+  {
+    "hex": "3a",
+    "encoded": "0MDW"
+  },
+  {
+    "hex": "3b",
+    "encoded": "0FGW.D2"
+  },
+  {
+    "hex": "3c",
+    "encoded": "0FGW.E2"
+  },
+  {
+    "hex": "3d",
+    "encoded": "0B0K"
+  },
+  {
+    "hex": "3e",
+    "encoded": "0FGW-2"
+  },
+  {
+    "hex": "3f",
+    "encoded": "0U3A"
+  },
+  {
+    "hex": "40",
+    "encoded": "0-H9"
+  },
+  {
+    "hex": "41",
+    "encoded": "0X1"
+  },
+  {
+    "hex": "42",
+    "encoded": "0N4K"
+  },
+  {
+    "hex": "43",
+    "encoded": "0Z8K"
+  },
+  {
+    "hex": "44",
+    "encoded": "0-EW"
+  },
+  {
+    "hex": "45",
+    "encoded": "0S1"
+  },
+  {
+    "hex": "46",
+    "encoded": "03CW"
+  },
+  {
+    "hex": "47",
+    "encoded": "0.H0K"
+  },
+  {
+    "hex": "48",
+    "encoded": "0O1A"
+  },
+  {
+    "hex": "49",
+    "encoded": "0U1K"
+  },
+  {
+    "hex": "4a",
+    "encoded": "0W.HG"
+  },
+  {
+    "hex": "4b",
+    "encoded": "03:G"
+  },
+  {
+    "hex": "4c",
+    "encoded": "045A"
+  },
+  {
+    "hex": "4d",
+    "encoded": "0AK9"
+  },
+  {
+    "hex": "4e",
+    "encoded": "0.AI9"
+  },
+  {
+    "hex": "4f",
+    "encoded": "00.HG"
+  },
+  {
+    "hex": "50",
+    "encoded": "0HH9"
+  },
+  {
+    "hex": "51",
+    "encoded": "0J:G"
+  },
+  {
+    "hex": "52",
+    "encoded": "0$0A"
+  },
+  {
+    "hex": "53",
+    "encoded": "09AK"
+  },
+  {
+    "hex": "54",
+    "encoded": "0TL9"
+  },
+  {
+    "hex": "55",
+    "encoded": "060H"
+  },
+  {
+    "hex": "56",
+    "encoded": "0.E1A"
+  },
+  {
+    "hex": "57",
+    "encoded": "0SFW"
+  },
+  {
+    "hex": "58",
+    "encoded": "0B2A"
+  },
+  {
+    "hex": "59",
+    "encoded": "0:FW"
+  },
+  {
+    "hex": "5a",
+    "encoded": "07GW"
+  },
+  {
+    "hex": "5b",
+    "encoded": "0FGW.G2"
+  },
+  {
+    "hex": "5c",
+    "encoded": "0FGW.H2"
+  },
+  {
+    "hex": "5d",
+    "encoded": "0FGW:2"
+  },
+  {
+    "hex": "5e",
+    "encoded": "0FGW03"
+  },
+  {
+    "hex": "5f",
+    "encoded": "0L3"
+  },
+  {
+    "hex": "60",
+    "encoded": "0FGW13"
+  },
+  {
+    "hex": "61",
+    "encoded": "0F0"
+  },
+  {
+    "hex": "62",
+    "encoded": "034"
+  },
+  {
+    "hex": "63",
+    "encoded": "065"
+  },
+  {
+    "hex": "64",
+    "encoded": "0S3"
+  },
+  {
+    "hex": "65",
+    "encoded": "0I1"
+  },
+  {
+    "hex": "66",
+    "encoded": "0-2"
+  },
+  {
+    "hex": "67",
+    "encoded": "0G3"
+  },
+  {
+    "hex": "68",
+    "encoded": "0D2"
+  },
+  {
+    "hex": "69",
+    "encoded": "0B4"
+  },
+  {
+    "hex": "6a",
+    "encoded": "0M3"
+  },
+  {
+    "hex": "6b",
+    "encoded": "0T2"
+  },
+  {
+    "hex": "6c",
+    "encoded": "052"
+  },
+  {
+    "hex": "6d",
+    "encoded": "0.D0"
+  },
+  {
+    "hex": "6e",
+    "encoded": "0.G1"
+  },
+  {
+    "hex": "6f",
+    "encoded": "0R4"
+  },
+  {
+    "hex": "70",
+    "encoded": "0K3"
+  },
+  {
+    "hex": "71",
+    "encoded": "0T5"
+  },
+  {
+    "hex": "72",
+    "encoded": "0E5"
+  },
+  {
+    "hex": "73",
+    "encoded": "0.E3"
+  },
+  {
+    "hex": "74",
+    "encoded": "0V0"
+  },
+  {
+    "hex": "75",
+    "encoded": "021"
+  },
+  {
+    "hex": "76",
+    "encoded": "003"
+  },
+  {
+    "hex": "77",
+    "encoded": "0P2"
+  },
+  {
+    "hex": "78",
+    "encoded": "0:2H"
+  },
+  {
+    "hex": "79",
+    "encoded": "0R2"
+  },
+  {
+    "hex": "7a",
+    "encoded": "0G7K"
+  },
+  {
+    "hex": "7b",
+    "encoded": "0FGW23"
+  },
+  {
+    "hex": "7c",
+    "encoded": "0FGW33"
+  },
+  {
+    "hex": "7d",
+    "encoded": "0FGW43"
+  },
+  {
+    "hex": "7e",
+    "encoded": "0XH9"
+  },
+  {
+    "hex": "7f",
+    "encoded": "0FGW53"
+  },
+  {
+    "hex": "80",
+    "encoded": "0FGW63"
+  },
+  {
+    "hex": "81",
+    "encoded": "0FGW73"
+  },
+  {
+    "hex": "82",
+    "encoded": "0FGW83"
+  },
+  {
+    "hex": "83",
+    "encoded": "0FGW93"
+  },
+  {
+    "hex": "84",
+    "encoded": "0FGWA3"
+  },
+  {
+    "hex": "85",
+    "encoded": "0FGWB3"
+  },
+  {
+    "hex": "86",
+    "encoded": "0FGWC3"
+  },
+  {
+    "hex": "87",
+    "encoded": "0FGWD3"
+  },
+  {
+    "hex": "88",
+    "encoded": "0FGWE3"
+  },
+  {
+    "hex": "89",
+    "encoded": "0FGWF3"
+  },
+  {
+    "hex": "8a",
+    "encoded": "0FGWG3"
+  },
+  {
+    "hex": "8b",
+    "encoded": "0FGWH3"
+  },
+  {
+    "hex": "8c",
+    "encoded": "0FGWI3"
+  },
+  {
+    "hex": "8d",
+    "encoded": "0FGWJ3"
+  },
+  {
+    "hex": "8e",
+    "encoded": "0FGWK3"
+  },
+  {
+    "hex": "8f",
+    "encoded": "0FGWL3"
+  },
+  {
+    "hex": "90",
+    "encoded": "0FGWM3"
+  },
+  {
+    "hex": "91",
+    "encoded": "0FGWN3"
+  },
+  {
+    "hex": "92",
+    "encoded": "0FGWO3"
+  },
+  {
+    "hex": "93",
+    "encoded": "0FGWP3"
+  },
+  {
+    "hex": "94",
+    "encoded": "0FGWQ3"
+  },
+  {
+    "hex": "95",
+    "encoded": "0FGWR3"
+  },
+  {
+    "hex": "96",
+    "encoded": "0FGWS3"
+  },
+  {
+    "hex": "97",
+    "encoded": "0FGWT3"
+  },
+  {
+    "hex": "98",
+    "encoded": "0FGWU3"
+  },
+  {
+    "hex": "99",
+    "encoded": "0FGWV3"
+  },
+  {
+    "hex": "9a",
+    "encoded": "0FGWW3"
+  },
+  {
+    "hex": "9b",
+    "encoded": "0FGWX3"
+  },
+  {
+    "hex": "9c",
+    "encoded": "0FGWY3"
+  },
+  {
+    "hex": "9d",
+    "encoded": "0FGWZ3"
+  },
+  {
+    "hex": "9e",
+    "encoded": "0FGW.A3"
+  },
+  {
+    "hex": "9f",
+    "encoded": "0FGW$3"
+  },
+  {
+    "hex": "a0",
+    "encoded": "0FGW.C3"
+  },
+  {
+    "hex": "a1",
+    "encoded": "0FGW.D3"
+  },
+  {
+    "hex": "a2",
+    "encoded": "0FGW.E3"
+  },
+  {
+    "hex": "a3",
+    "encoded": "0FGW-3"
+  },
+  {
+    "hex": "a4",
+    "encoded": "0FGW.G3"
+  },
+  {
+    "hex": "a5",
+    "encoded": "0FGW.H3"
+  },
+  {
+    "hex": "a6",
+    "encoded": "0FGW:3"
+  },
+  {
+    "hex": "a7",
+    "encoded": "0FGW04"
+  },
+  {
+    "hex": "a8",
+    "encoded": "0FGW14"
+  },
+  {
+    "hex": "a9",
+    "encoded": "0FGW24"
+  },
+  {
+    "hex": "aa",
+    "encoded": "0FGW34"
+  },
+  {
+    "hex": "ab",
+    "encoded": "0FGW44"
+  },
+  {
+    "hex": "ac",
+    "encoded": "0FGW54"
+  },
+  {
+    "hex": "ad",
+    "encoded": "0FGW64"
+  },
+  {
+    "hex": "ae",
+    "encoded": "0FGW74"
+  },
+  {
+    "hex": "af",
+    "encoded": "0FGW84"
+  },
+  {
+    "hex": "b0",
+    "encoded": "0FGW94"
+  },
+  {
+    "hex": "b1",
+    "encoded": "0FGWA4"
+  },
+  {
+    "hex": "b2",
+    "encoded": "0FGWB4"
+  },
+  {
+    "hex": "b3",
+    "encoded": "0FGW10"
+  },
+  {
+    "hex": "b4",
+    "encoded": "0FGW30"
+  },
+  {
+    "hex": "b5",
+    "encoded": "0FGW50"
+  },
+  {
+    "hex": "b6",
+    "encoded": "0FGW70"
+  },
+  {
+    "hex": "b7",
+    "encoded": "0FGW90"
+  },
+  {
+    "hex": "b8",
+    "encoded": "0FGWB0"
+  },
+  {
+    "hex": "b9",
+    "encoded": "0FGWD0"
+  },
+  {
+    "hex": "ba",
+    "encoded": "0FGWF0"
+  },
+  {
+    "hex": "bb",
+    "encoded": "0FGWH0"
+  },
+  {
+    "hex": "bc",
+    "encoded": "0FGWJ0"
+  },
+  {
+    "hex": "bd",
+    "encoded": "0FGWL0"
+  },
+  {
+    "hex": "be",
+    "encoded": "0FGWN0"
+  },
+  {
+    "hex": "bf",
+    "encoded": "0FGWP0"
+  },
+  {
+    "hex": "c0",
+    "encoded": "0FGWR0"
+  },
+  {
+    "hex": "c1",
+    "encoded": "0FGWT0"
+  },
+  {
+    "hex": "c2",
+    "encoded": "0FGWV0"
+  },
+  {
+    "hex": "c3",
+    "encoded": "0FGWX0"
+  },
+  {
+    "hex": "c4",
+    "encoded": "0FGWZ0"
+  },
+  {
+    "hex": "c5",
+    "encoded": "0FGW$0"
+  },
+  {
+    "hex": "c6",
+    "encoded": "0FGW.D0"
+  },
+  {
+    "hex": "c7",
+    "encoded": "0FGW-0"
+  },
+  {
+    "hex": "c8",
+    "encoded": "0FGW.H0"
+  },
+  {
+    "hex": "c9",
+    "encoded": "0FGW01"
+  },
+  {
+    "hex": "ca",
+    "encoded": "0FGW21"
+  },
+  {
+    "hex": "cb",
+    "encoded": "0FGW41"
+  },
+  {
+    "hex": "cc",
+    "encoded": "0FGW61"
+  },
+  {
+    "hex": "cd",
+    "encoded": "0FGW81"
+  },
+  {
+    "hex": "ce",
+    "encoded": "0FGWA1"
+  },
+  {
+    "hex": "cf",
+    "encoded": "0FGWC1"
+  },
+  {
+    "hex": "d0",
+    "encoded": "0FGWE1"
+  },
+  {
+    "hex": "d1",
+    "encoded": "0FGWG1"
+  },
+  {
+    "hex": "d2",
+    "encoded": "0FGWI1"
+  },
+  {
+    "hex": "d3",
+    "encoded": "0FGWK1"
+  },
+  {
+    "hex": "d4",
+    "encoded": "0FGWM1"
+  },
+  {
+    "hex": "d5",
+    "encoded": "0FGWO1"
+  },
+  {
+    "hex": "d6",
+    "encoded": "0FGWQ1"
+  },
+  {
+    "hex": "d7",
+    "encoded": "0FGWS1"
+  },
+  {
+    "hex": "d8",
+    "encoded": "0FGWU1"
+  },
+  {
+    "hex": "d9",
+    "encoded": "0FGWW1"
+  },
+  {
+    "hex": "da",
+    "encoded": "0FGWY1"
+  },
+  {
+    "hex": "db",
+    "encoded": "0FGW.A1"
+  },
+  {
+    "hex": "dc",
+    "encoded": "0FGW.C1"
+  },
+  {
+    "hex": "dd",
+    "encoded": "0FGW.E1"
+  },
+  {
+    "hex": "de",
+    "encoded": "0FGW.G1"
+  },
+  {
+    "hex": "df",
+    "encoded": "0FGW:1"
+  },
+  {
+    "hex": "e0",
+    "encoded": "0FGW12"
+  },
+  {
+    "hex": "e1",
+    "encoded": "0FGW32"
+  },
+  {
+    "hex": "e2",
+    "encoded": "0FGW52"
+  },
+  {
+    "hex": "e3",
+    "encoded": "0FGW72"
+  },
+  {
+    "hex": "e4",
+    "encoded": "0FGW92"
+  },
+  {
+    "hex": "e5",
+    "encoded": "0FGWB2"
+  },
+  {
+    "hex": "e6",
+    "encoded": "0FGWD2"
+  },
+  {
+    "hex": "e7",
+    "encoded": "0FGWF2"
+  },
+  {
+    "hex": "e8",
+    "encoded": "0FGWH2"
+  },
+  {
+    "hex": "e9",
+    "encoded": "0FGWJ2"
+  },
+  {
+    "hex": "ea",
+    "encoded": "0FGWL2"
+  },
+  {
+    "hex": "eb",
+    "encoded": "0FGWN2"
+  },
+  {
+    "hex": "ec",
+    "encoded": "0FGWP2"
+  },
+  {
+    "hex": "ed",
+    "encoded": "0FGWR2"
+  },
+  {
+    "hex": "ee",
+    "encoded": "0FGWT2"
+  },
+  {
+    "hex": "ef",
+    "encoded": "0FGWV2"
+  },
+  {
+    "hex": "f0",
+    "encoded": "0FGWX2"
+  },
+  {
+    "hex": "f1",
+    "encoded": "0FGWZ2"
+  },
+  {
+    "hex": "f2",
+    "encoded": "0FGW$2"
+  },
+  {
+    "hex": "f3",
+    "encoded": "0FGW05"
+  },
+  {
+    "hex": "f4",
+    "encoded": "0FGW25"
+  },
+  {
+    "hex": "f5",
+    "encoded": "0FGW45"
+  },
+  {
+    "hex": "f6",
+    "encoded": "0FGW65"
+  },
+  {
+    "hex": "f7",
+    "encoded": "0FGW85"
+  },
+  {
+    "hex": "f8",
+    "encoded": "0FGWA5"
+  },
+  {
+    "hex": "f9",
+    "encoded": "0FGWC5"
+  },
+  {
+    "hex": "fa",
+    "encoded": "0FGWE5"
+  },
+  {
+    "hex": "fb",
+    "encoded": "0FGWG5"
+  },
+  {
+    "hex": "fc",
+    "encoded": "0FGWI5"
+  },
+  {
+    "hex": "fd",
+    "encoded": "0FGWK5"
+  },
+  {
+    "hex": "fe",
+    "encoded": "0FGWM5"
+  },
+  {
+    "hex": "ff",
+    "encoded": "0FGWS5"
+  },
+  {
+    "hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff",
+    "encoded": "0FGWNLV9GWFGW.EWVBGWFGW.GHO.HEWFGWETO0FWFGWV.EO2FWFGW37P4FWFGWKIP6FWFGW$TP8FWFGW9-PAFWFGWQ7QCFWFGW.HIQEFWFGWFUQGFWFGWW-QIFWFGW48RKFWFGWLJRMFWFGW.CUROFWFGWA.GRQ.CVCDW236IDW0HT$H9BGW7GWEGW2TVFGWUFSTX3U.G1.DDNBSIVM0FGWOJGPDWB0KTFWJZQN.EK19LYFV.DVIL0K.EST.HTOEF6FMT7PAW717I6$VI90BAZQOBWBCO38GEGWYN2M5WEGWCO3T5W.ETEV5W4.A5.H.D0OV9-ZT.DGIH37.CIDO5H5I3Z-F4BWFGW6Z27BWMZI1GW9AKCPU1GWDESVQU2GW1245SU2GW56COTU2GW9AK.HUU2GWDESHWU3GW124.AXU3GW56CAZU3GW9AKT.AU3GWDES3.CU4GW124M.DU4GW56C-.EU4GW9AKF.GU4GWDESY.HU5GW12480V5GW56CR1V5GW9AK13V5GWDESK4V6GW124.D5V6GW56CD7V6GW9AKW8V6GWDES6AV7GW124PBV7GW56C:CV7GW9AKIEV7GWDES$FVTFW348.GHOPDWFGWM01I5WCGW236EIV0GWFGW4RS1FWFGWXPH8BWEGW.AP63-V8GWEFUVQUXFW348KIP-DWFGWO25$6WCGWABM0OV2GWFGW.C4T9FWFGWYQJ.EBWEGW.ETE-.HV9GWEFU3.CU$FW348.HIQCEWFGWQ49B8WDGW236VTV4GWFGWRRTHFWFGWZRLRCWEGW:XMY1WAGWEFUK4V-FW348LJRSEWFGWS6DU9WDGWABMHZV6GWFGWG5UPFWFGW.ASNEDWEGW3.CUR4WBGWEFU$FVCGW348NLV2GWFGW.AETGFWFGWABM6DWEGWFGWH6WCGWFGW.EWV7GWFGWQ5"
+  },
+  {
+    "hex": "",
+    "encoded": "0"
+  },
+  {
+    "hex": "538c7f96b164bf",
+    "encoded": "09AKZFW78GZWS$FWFGWHDUFGWP0"
+  },
+  {
+    "hex": "1b97bb9f4bb472e89f5b1484f252",
+    "encoded": "0FGWZDREEWFGWHC2TCW.AQ1TFWIUFY9WEGW:XMI5WFGW$Q8P6WDGW-TV"
+  },
+  {
+    "hex": "09c9d9343e92ba09dd9d52dfd79b4d76429b617a0c",
+    "encoded": "0FGWH1PUBWEGWTJJ8GW3489RV0GWFGW4KV.DFWBCOLTTCDQE2V.CFW348RQTJDLEFUW0WU3A2GWI1"
+  },
+  {
+    "hex": "9f9f0d3ba55b0cc0d6144c888535841acbe0709b0758083f61d375bc",
+    "encoded": "0FGW7.DLMEWFGW6OPODWFGWDSMRDWFGWKIPCBWEGW89I5CW348:DWFGWONIFGWZO4NEWEGW.DSCV1WDESL:U8GWTHDFGWACHM01CRVFGW23"
+  },
+  {
+    "hex": "02b41df4f91929e18fda9e6f82e54e748e81e79e4bbd6fe34cdcba843ee8d63e8c4ffe",
+    "encoded": "0FGW.EWVXAWFGW:XM4FWFGWXBN.D8W:FW5GWDES.GZU.CFWFGWRVTEGW348O2W.DMA9GWBCO7LV6GW9AKC1V6OP.G5W348UERFGW1TT0FWFGWKIP.HEWFGWG0NBCWFGWM01.ABWUO1DGWU5"
+  },
+  {
+    "hex": "1cebea546d8fac13dd1aac04ce2ea2877c5579cfa2c78e1b0bafae881b82a751108a42ed3c903caa4346",
+    "encoded": "0FGWLJR8DWEGW9.HRO25X.HVDGWCDQ.A7WAGWABMY1WBGW9AK.G.CV3GWNIEPEWFGWS$IXDWY:GBCOX4QKFWFGWS$I5EWFGWZDR4FWFGW8.EN$EWFGWE.HIKFWFGW89IUEWJ:GCGWCDQAOVEFU.A.AV8GW236MQV8GW236RZVN.CV"
+  },
+  {
+    "hex": "5a78620616978aed0ce3c6c4f3ae7bc3e0495b5712fefdbe0c102887e100dacd2d885f692cb607da00a11c1c7071e796a2",
+    "encoded": "04GW7.G6CGW236F0WAGW45AGOV7GW56CAMV-FW3486OP.EDWFGWUPSEDWFGWYN2L6WDGW.AYDFGWR.AGDESMQVEGWFGW52WYDWFGWKIP9FWEGWFGWS$IXCWFGWVQUN8WCGWGCRYFW02DFGWGB0E5WFGW012V0WFGWYCP.G1WEGWYCPF9WQDS.GFW348MKT.EFWU5"
+  },
+  {
+    "hex": "dc2dc25a5b74b2e129705e273f05c92326828e2b056e3817658e1061498947fdf344410ed4c116023fa8e3576b6fed27ff8974bac0cafd9a",
+    "encoded": "0FGWMRA1GWEGWFGWSVGBGWFGWX3VGEWFGWT4H8CAFGWSNOTBWD4J56CVQU3GW0EDFGW.CJO9AKNTVFGWP372EWVM2EGWVJB78G.EWVUFWOBW78GQ0TBEWFGWTZ3FEWFGWS-U78G.CURQEWBFW3.CU.H3W1KAFGWBCOY0TCGW348.AKV2GWFGWA9W.CFWU5"
+  },
+  {
+    "hex": "d05692b13619e738964dfdc79e8d534373661cfd66d74fec1e1b89491ab7236e4b75216290cf2beb42c3ca27328560f1aac067cea6e8bf46d4ab2b4680402c",
+    "encoded": "0FGWLI7DES3.CU7GW.DCS5GW78G7RRFGWO-878G.EWVQBWFGWR5B.CBW038T:QFGWRMM.DFW012$SVMHC5AWFGWHTDZCWEGWVJBFGWWYTRDWON9.HE6.EFW78G.HBTBFWOV4DGWN.EOCGWU8H5OVG.DKFGW7.A42BWEGWQ.CV.G9WCGWTXDAFWFGW7PRVEWFGW.DC378GQLKYEW4I99RVBBW.CZICGW70"
+  },
+  {
+    "hex": "5fb2820e885d3260f1de978283d4a09a36f96c20941746e3ed4da646a9ae8b4fa7b4fc3a20bafa1a75ed327a86b8b0c39af1cfd2b3b51219ea79533abf448d2c479d32607533",
+    "encoded": "06.CJ-EWFGW89I7FWFGWE.HITDW78G8.EVBGWEFUR1V4GW9AKVQU2GW124THT.EFW78G8QT78GQ6VEGW.AETS:VEGW3AKEGW0ZO.H3WA.DA.HCW.A7WOFW78G-2S9FWML8BGW45AXGUEGWK7GDGWCDQ0LUDGWFGW.D1VEGW-PTEFU.GMV0GWBCOIEVXFW3488QTSFW78G6.CJ3CWEGWXM05.DVEGWT7F.D8WBGW$3FBGWEGWZP6FGWYQJNDW.H0K5GW45AVDWXL5"
+  },
+  {
+    "hex": "905914c8cc1cf09da39e0e929d024abcbcb169397bb734e7ef0a6e01f1854deb5fe424fef7ac210891f5975e292aa2b8aa047c61cdb33373ebe72c27a098c02197dae6b732c351df668f874e2c",
+    "encoded": "0FGW$.HJEFUS:V2GWBCOC6T6GW348R8SIFW78GSGRIFWFGWQ0TCFWFGWP:QDGW.CL88GW9AKJMU7GW:ARFGWYN2G5WBCO08V:FW348FOUFGW3.CUPAWEGWAB9FGW5EEEGWYCPIDWFGWDESJCWBGW9AKBCOJMU.AFWBCOGOVFFW78G0ZOTAWSFWFGWABM-AWFGW67EODWFGWLO2ZFWBCOKDO56C.CAV.GFW348WESS$INEWFGWF:KCBW7GWDGWO252UV6GW78GVKSEGW1G878G.D3RFGW6.CJ.HDW.AI90GWV0"
+  },
+  {
+    "hex": "9f1ce09ca86017e7e21748303ff41c1b23e11c48ed17539d685f76f2a798bc64de0e5db2864b2ad3c26ce6382342765a13d696e52df760f6c3465e29a0dca46ac3a0d570133bc21571f5f54a643105513fd8429b",
+    "encoded": "0FGW7.DLLFWFGWGSBNCWFGWHTD2BWFGWWALU9WDGW78GI8WWMFH.H7WFWFGWRMMOEWV9J69WFGW8DC78G.ASNGFW9AK.DFWUGJ012TAWEGW1.AQF8WCGWXX9.DFWFGW.HUUUFWBCOEFUXFWCNSFGW78GK:V8GWK4VTEW.HHM3PF:FWCGWFGW-.EU4GW78GZ-TFGW1.AQY5WFGW9AK.DLV3.CUU5W7GWDGW67EYUVBGW8C32GW12413V$FW15LCFWFGWOJGGBWFGW-WKFGWNZP.HDWHD689I6.DVF.ACBCOCTQ78GRRT"
+  },
+  {
+    "hex": "194ae1ba9f2a8386ae72b3661fe82c2ac64dbf46151824e2305312637c99c2b87d6df0dd5ef2836719072d672f61faa0be86f457921ec37c0e460cf0d703d07dc5f5661a450133409a712b6a66abd7ba65224ca26978d9a5ce62fe",
+    "encoded": "0FGWW:Q348X3VUFWFGWDXT7GWFGWL.CSXFWFGWO9UEGWWB0EGWDES1ZV8GW012.H4W2GWCED8GW0DQFGWQ49NCWFGWIUF32W.AP6EGWH3FVFWBCOYOT4FWFGWD.GGYDWO25.D$V5GW56C0LU:FWFGW.E$SFGWLXLUDW$MT78G$FVNEWFGWN13OBWFGWYCP78GCDQ.GFW78G.DEIXDWFGW$TP3485SURFWFGWT.CKBGWFGWEQ78BWEGWFR9.HDW124N1W9AKUBWKV4FGW15A3.AI9FR7GW124-LT0FW9AK8AW78GZCW6AFAGW67E.HXV3GW.H1FBGW"
+  },
+  {
+    "hex": "b11a838f16622eb54cee3e6755229c183c1933a916585e183bb709192db0e6c8d709b9d7383b993c69499945b0b0cfe3dc2ec1fc9610d7eeb19d0916a27423c29e442f0e31c2c9539660f05fb37e45cd1bf0bcfc1a346c434f11cf00416fa61695b9",
+    "encoded": "0FGWP6OJFWFGW.DEI6EWFGWWSQ348QHSFGW:CV0GWNLE78G7$V5GW348YUV0GW56C3VV78GVXR.CFW515CGW348V8WCGW012RHVCGW56CI1W78GR8STEWFGWDP5B8WFGWN13$.DVAGW3N9TFW78GYOTTFW.E6MFGWYNT78GR8SRFWFGW6.CJ$CWEGWY0LWFWBCOC:VEFWFGWC6TEEWFGWT7FKDWFGWA.DAYDWFGWF:KYCW3B5WFWFGW.DVT.G3U7FWQ49NLV2GW1.AQDGW1248.EVBGW4OR0GW.A71.GVIH.HVEGWBCO.D$V1GW348.A7W5GW$SJP:V348AZUBFW78GL.DVS6D$2WEGWV9J.A:V8GWL2"
+  },
+  {
+    "hex": "202e68363a1c787f4784e0aed9c78564184e131f1e7c811fbd885bcc6734e8933f3cb2f25d52f9f8c7547ad7e1d6278c9f7c872f840f9d94d9fdedae93db2495718f580b8c8f2becc6aa76c3b0f948afbe6127a5cfd56bc11b3c2ea837a1c669a822f76864ec2ae0cd",
+    "encoded": "0FGWT.DRA18BCOCXVDESEKVJ3TKBWEGWXBNDAWDGWP37DNV9GWFF55GW.GF2EGW78G.G9WEGWZDRO.EVCGWT7F.G9W8GWABMTNV8GW45ANXU67E83WDGW7E0FGW5Y0MDWEGWFGWO5W0W7.GFWFGWZDR9.GVE1BFGW.HF969WDGWXE39AK.AXU5GW9AK6NU2GWKWJKBWFGWV9JPCWFGW$Q8J8WFGWZDR.A.AVBGWBCOPRV5GW124.D$V4GWI5C3GWVJHFGW89I.ABWFGW.D67BCOPBVXFWFGWC3UFGWRFPRFWFGWA6V56CVDVVFW.DIO45A.HXV3GW9AKEITFGWM3IKFWFGWXMGDGWQOLAGWEFUGTUFGWG0NQFWFGWEJT348A.GR:FWFGW.C:L.CBW"
+  },
+  {
+    "hex": "6bfddf21b1144474bfd37cd206b51ace050ab6199ec7b396d618fde0e1a2999a6f3d9f8b7ab8149f72deba5c6cd4fd4d392c92b4b21ac812034062dfc3063a7a6862b0fef1052919c2a87a4994fc1e401e11c5a49c7e8ea9e65d6cc40465fd352f2c42ec3d3ef60db69740517dc7652b",
+    "encoded": "0T7F.EFWDGWS6DDES5FVAGWV14FGW5$H5CWFGW6Z2.A7WFGWBN15.DVEGWXBNZPVCGW1243-V0GW78GLVV5GW78G7:S.GEW78GTOQDEWFGWW-Q5GWEGWXBN.G1WDGW78GN0WDGWL.D7124E2V3GWIN20GWBCO-RV5GW$.HJRCWEGW124K5W78GTHTDGWCW4348WFS.AFWFGW.GHOSFWFGWWYT:DWFGWQ7QBGW.EH9DESE2VXFW348QJU.EORU.A5.DEWFGW$FVPAWFGWM01$FV.D8W8GWFGW.EYVM.HUFGWQLK3GWFGWD$MABMY9WEGW67EQMVBGW124NUVT.CK5EWFGW26N.HCWFGWNR12GW3480GVFGWVQTFGW1EO78G7-R1247IUCGWFGWOTU.HEWFGWMPQ.EJ5BCO.CNUYFW.DT1$2"
+  },
+  {
+    "hex": "9eeff516535aa1c9f33db13ed1f7ae1be384132328d103f871af9bcd15233c393978f5c17089e8f3267a0ccc7e39bfcac7ac42be2c172c6243d10633036d3d46b81916ae46ff13d6a6b2fad9079d6df344059029667b2eb41a400117556fe5cb405b3170acaca5c75baf7f7b70e86144d3ba036b3b1f58",
+    "encoded": "0FGWLXLGDWFGWNZPECW78G$FV.G1W9GW67EI5WYCPZ4WCGW124.CQVEGW9AK:CVAGWFGW:.CTXFW78G3$UFGWBCOJAQDGWFGWJ4VFGW8.ENIEWFGW8$6CEWV9JZAWLB0P371EW8GWYOTYFWBCO.CUR0GWA.HG$FVP6W9GWRZIOJG56WCGWBCODNVBGWWKJ8GWBCO8GVDGW3484GVC6D3GWDESPHV78GO2WFDF348ETO.DFWFGWFNTQFW9EWFGWBCO3.CUEFWFGW7PRSFWFGW$FVHCWFGWU8HOCW45AU5W$FVE5WCGWEFUAGT1GWJE6XAWFGWZ.ALABMCFWEGWRXJCDQQ6VZFWWF2FGWKWGDESPBV7GW348Q6VYFW348ILS:FW348ZWSVFW.G0D1DW.C14AGW0120LUFGWK1ETFW78G79V.H4"
+  },
+  {
+    "hex": "fe427950e7d04f4c26ebe12fd5e123719808a204b851ba6cf2ca6c46ed88162f5d45cdb5a0763ae7e1833fb7adf98936f51e4dda8a284ef19a85bb87437b4103305a3b386c7d36d92d22549960a714f2a829e1c2021673bf30c50b679d50568955c9c198089d95f60397d2af5f8fc9110be3a9e125e94484979708d6aa7c",
+    "encoded": "0FGWNBV9XE78GU.DM:BWVN11IVFGWNIE69W78G.ALQOEWER9FGWF:K1FWFGWABM.GEWFGW.CH1BCOZOSEGWFGWX.GVCFW7GW56C.HUUAGWGSB.GAW.GVIH.HV8GW2361WV:7GDGWWALOWV9GWFS0CGWO2534WFGW67E0OVDES.C.GV6GWLOI4GWFGWHWU6FW45AZ4WDGW348.H-V8GW89I7NVQ.CV.A5WEQ7.HFW9AK78G3HOBCO4KVDESWOTFGWKQNFGW8XQ1FW78G0SR$FW78GBCOVEWDGWEGWMYNJ-VFGWZDRD8W78GB3PEGWFR9FBW56CI0V9I878GFVP348UVUWFWBCOFNT1GW348KUT$FWBCO9RVDGWFGWMRQ9EWFGW:$NFGW6.CJUBWFGWKWJ.CDWEGW0ZO.C9WDGW.G6F.GFW.EBO9GW124:SVAGW45AG.EV4GW78G6AV1GW52"
+  },
+  {
+    "hex": "fc629e8d9147cf2f5fb6a05591ab86873a1ead05a4a6671d69515c839dd8af3a3ad77402c5fd3a83a04608a98933002162dd4c1ff5547f5752031f2121e14108aa5a57456cae91c17329ad5ace61eae9b652df3300b4c2ab582776d85b68ca32d5c373c26478583bc48fa36be48d659c3fe1734101c7e48fd37fb9fae3f0bb4e9b6df4752a",
+    "encoded": "0FGW.DYUDGW56CH.HVCGWL.HUFGWBD79AK:JS.EFWGFCCGW$FVW3WCGW9AKE.GVQ.CVVEWFGWC-EQDWFGW.DSC.HCW236X2WHUOCGW236R-VDGWR5BFTVBGW4DQ.H4WCCW348ZCWXFWBCO52WBCOIRU5GWWBOEGWO25G3WCGWJUMFGW124GSBX8W348OFWFGWH.ESFGWA4PL.GSFGWEFU6DW:FW-EWKFWV:4VFW78GO.ARQ.CV-Q4DGWDES4:V8GW.DVTTAW.AEW7GW9GW-GM6DWEGWO.AR8.DV1JF-8WABM.CDW0GW3482$S.HFW0N2.C9578GF.GU0GW5$HVBWFGW9.EUXFWDP5G6W2BHIUF.GEWFGWPKI6EWFGW.EDMEGWYCPD7WFGW2STEFUN3VI:99GWFGW-D5I9WEGW.ETEK:VCGWS6DEIVEGWFGW:.CTRFWFGWFAH78G.D.HUFGW.ARSDGWU5"
+  }
+]
