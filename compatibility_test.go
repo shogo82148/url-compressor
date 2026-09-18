@@ -3,7 +3,7 @@ package main
 import (
 	"bytes"
 	"encoding/hex"
-	"encoding/json"
+	"encoding/json/v2"
 	"os"
 	"testing"
 )
@@ -15,8 +15,8 @@ func TestCompatibility(t *testing.T) {
 		t.Fatal(err)
 	}
 	var vectors []struct {
-		Hex     string
-		Encoded string
+		Hex     string `json:"hex"`
+		Encoded string `json:"encoded"`
 	}
 	if err := json.Unmarshal(data, &vectors); err != nil {
 		t.Fatal(err)

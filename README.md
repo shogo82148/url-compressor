@@ -32,7 +32,7 @@ const bytes = decode(encoded);        // Uint8Arrayを返す
 
 ## テスト
 
-Node.js 20以降とGoで実行します。npmパッケージのインストールは不要です。
+Node.js 20以降とGo 1.27以降で実行します（テストで `encoding/json/v2` を使用）。npmパッケージのインストールは不要です。
 
 ```sh
 npm test
