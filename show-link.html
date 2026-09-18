@@ -1,14 +1,46 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html lang="ja">
 <head>
-    <title>URL Compressor</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>URL Compressor — 復元したURL</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #162b2b; background: #f3f5f1; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { max-width: 1040px; margin: auto; padding: 48px 24px; }
+    .eyebrow { color: #36695e; font-size: 12px; font-weight: 700; letter-spacing: .16em; }
+    h1 { font-size: clamp(32px, 6vw, 54px); letter-spacing: -.05em; margin: 16px 0; }
+    .intro, footer { color: #536762; line-height: 1.8; }
+    .intro { margin-bottom: 32px; }
+    section { background: #fff; padding: 26px; border: 1px solid #d9e2db; border-radius: 18px; }
+    h2 { margin: 0 0 22px; font-size: 20px; }
+    .number { font-size: 12px; color: #50766b; margin-right: 10px; }
+    .destination { display: block; padding: 18px; border: 1px solid #bbcfc5; border-radius: 9px; background: #eff5ef; color: #254e44; font: 14px/1.8 ui-monospace, monospace; overflow-wrap: anywhere; }
+    .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+    .button { display: inline-block; border: 1px solid #c5d5cc; border-radius: 7px; padding: 12px 16px; color: #254e44; background: #fff; font-size: 13px; text-decoration: none; }
+    .button:hover { background: #e7f0e9; }
+    .primary { background: #215b49; color: white; border-color: #215b49; }
+    .primary:hover { background: #174535; }
+    :focus-visible { outline: 3px solid #2d856d; outline-offset: 3px; }
+    footer { font-size: 12px; margin-top: 24px; }
+    @media (max-width: 720px) { main { padding: 28px 16px; } section { padding: 20px; } }
+  </style>
 </head>
-
 <body>
-    <h1>URL Compressor</h1>
-    <p>以下にリンクにアクセスしようとしています。</p>
-    <p><a href="{{ .Link }}">{{ .Link }}</a></p>
+<main>
+  <div class="eyebrow">URL COMPRESSOR / DECODE</div>
+  <h1>URLを復元しました。</h1>
+  <p class="intro">圧縮URLのリンク先です。下のボタンからアクセスできます。</p>
+  <section aria-labelledby="destination-heading">
+    <h2 id="destination-heading"><span class="number">01</span>復元したURL</h2>
+    <a class="destination" href="{{ .Link }}">{{ .Link }}</a>
+    <div class="actions">
+      <a class="button primary" href="{{ .Link }}">リンク先を開く →</a>
+      <a class="button" href="/">プレイグラウンドへ</a>
+    </div>
+  </section>
+  <footer>固定Huffman符号 + Base45 · Go版互換のバージョン0形式</footer>
+</main>
 </body>
-
 </html>

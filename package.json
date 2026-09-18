@@ -1,0 +1,9 @@
+{
+  "name": "url-compressor",
+  "private": true,
+  "type": "module",
+  "exports": "./url-compressor.js",
+  "scripts": {
+    "test": "node --test"
+  }
+}

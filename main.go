@@ -1,12 +1,11 @@
 package main
 
 import (
-	_ "embed"
+	"embed"
 	"fmt"
 	"html/template"
 	"io"
 	"net/http"
-	"os"
 	"strings"
 
 	"github.com/shogo82148/base45"
@@ -18,13 +17,19 @@ var showLinkHTML string
 
 var showLinkTemplate = template.Must(template.New("show-link").Parse(showLinkHTML))
 
+//go:embed playground.html playground.js url-compressor.js huffman.js
+var playgroundFiles embed.FS
+
+var playgroundHandler = http.FileServer(http.FS(playgroundFiles))
+
 func main() {
 	http.HandleFunc("/", serveRoot)
 	ridgenative.ListenAndServe(":8080", nil)
 }
 
 func serveRoot(w http.ResponseWriter, r *http.Request) {
-	if r.URL.Path == "/" {
+	switch r.URL.Path {
+	case "/", "/playground.html", "/playground.js", "/url-compressor.js", "/huffman.js":
 		serveIndex(w, r)
 		return
 	}
@@ -40,34 +45,18 @@ func serveRoot(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-//go:embed show-preview.html
-var showPreviewHTML string
-
-var showPreviewTemplate = template.Must(template.New("show-preview").Parse(showPreviewHTML))
-
+// serveIndex only serves the explicitly embedded playground assets.
 func serveIndex(w http.ResponseWriter, r *http.Request) {
-	if r.Method != http.MethodGet {
+	if r.Method != http.MethodGet && r.Method != http.MethodHead {
+		w.Header().Set("Allow", "GET, HEAD")
 		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
 		return
 	}
-
-	url := r.URL.Query().Get("url")
-
-	// remove the scheme
-	u := url
-	u = strings.TrimPrefix(u, "http://")
-	u = strings.TrimPrefix(u, "https://")
-
-	host := os.Getenv("COMPRESSOR_HOSTNAME")
-	if host == "" {
-		host = r.Host
+	if r.URL.Path == "/" {
+		r = r.Clone(r.Context())
+		r.URL.Path = "/playground.html"
 	}
-
-	encoded := "HTTPS://" + strings.ToUpper(host) + "/" + encode([]byte(u))
-	err := showPreviewTemplate.Execute(w, struct{ Encoded, Link string }{Encoded: encoded, Link: url})
-	if err != nil {
-		panic(err)
-	}
+	playgroundHandler.ServeHTTP(w, r)
 }
 
 var escaper = strings.NewReplacer(
